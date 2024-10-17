@@ -5,7 +5,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['logoutBtn'])) {
     session_destroy();
 
     // Redirect to the login page
-    header("Location: dn.php");
+    header("Location: login.php");
     exit();
 }
 ?>

@@ -1,5 +1,5 @@
 <?php
-include 'db.php'; // Kết nối cơ sở dữ liệu
+include 'dbmysqli.php'; // Kết nối cơ sở dữ liệu
 
 // Lấy danh sách các chủ đề từ CSDL
 $sql_subjects = "SELECT id, subject_title FROM chapters";

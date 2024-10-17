@@ -1,5 +1,5 @@
 <?php
-include 'db.php';
+include 'dbmysqli.php';
 // Lấy danh sách các bài học từ CSDL, bao gồm cả id
 $sql = "SELECT id, title, drive_link FROM lessons"; 
 $result = $conn->query($sql);

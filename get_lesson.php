@@ -1,5 +1,5 @@
 <?php
-include 'db.php'; // Kết nối tới cơ sở dữ liệu
+include 'dbmysqli.php'; // Kết nối tới cơ sở dữ liệu
 
 // Kiểm tra nếu ID được truyền vào
 if (isset($_GET['id'])) {

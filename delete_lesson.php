@@ -2,7 +2,7 @@
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $lesson_id = $_POST['id']; // Nhận ID bài học từ yêu cầu POST
 
-    include 'db.php';
+    include 'dbmysqli.php';
     // Xóa bài học dựa vào ID
     $sql = "DELETE FROM lessons WHERE id = ?";
     $stmt = $conn->prepare($sql);

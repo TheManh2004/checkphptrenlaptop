@@ -1,5 +1,5 @@
 <?php
-include 'db.php'; // Include your database connection
+include 'dbmysqli.php'; // Include your database connection
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Lấy dữ liệu từ AJAX

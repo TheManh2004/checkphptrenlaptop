@@ -1,5 +1,5 @@
 <?php
-include 'db.php'; // Kết nối cơ sở dữ liệu
+include 'dbmysqli.php'; // Kết nối cơ sở dữ liệu
 
 // Get the raw POST data
 $data = json_decode(file_get_contents("php://input"));
